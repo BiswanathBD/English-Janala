@@ -36,11 +36,10 @@
     <!-- css stylesheet -->
     <link rel="stylesheet" href="./style/style.css" />
   </head>
+
   <body>
     <div class="bg-[#badeff42]">
-      <nav
-        class="container mx-auto flex justify-between items-center px-4 lg:px-20"
-      >
+      <nav class="flex justify-between items-center mx-4 lg:mx-20">
         <!-- mobile menu bar -->
         <a id="bar" href="" class="md:hidden mr-2"
           ><i class="fa-solid fa-bars"></i
@@ -63,26 +62,71 @@
           <span class="font-semibold">English</span>
           <img class="w-8" src="./assets/logo.png" alt="" />
           <span class="bangla-font">জানালা</span>
-        </div><div></div>
+        </div>
+        <div></div>
 
         <div class="hidden md:flex gap-4">
           <button
-            class="text-[#422AD5] font-semibold border border-[#422AD5] px-3 py-2 text-sm rounded-md hover:bg-[#422AD5] hover:text-white flex items-center gap-1"
+            class="text-blue-400 font-semibold border border-blue-400 px-3 py-2 text-sm rounded-md hover:bg-blue-400 hover:text-white flex items-center gap-1"
           >
             <i class="fa-solid fa-circle-question -mb-[2px]"></i>FAQ
           </button>
           <button
-            class="text-[#422AD5] font-semibold border border-[#422AD5] px-3 py-2 text-sm rounded-md hover:bg-[#422AD5] hover:text-white flex items-center gap-1"
+            class="text-blue-400 font-semibold border border-blue-400 px-3 py-2 text-sm rounded-md hover:bg-blue-400 hover:text-white flex items-center gap-1"
           >
             <i class="fa-solid fa-book-open -mb-[2px]"></i>Learn
           </button>
           <button
-            class="text-[#422AD5] font-semibold border border-[#422AD5] px-3 py-2 text-sm rounded-md hover:bg-[#422AD5] hover:text-white flex items-center gap-1"
+            class="text-blue-400 font-semibold border border-blue-400 px-3 py-2 text-sm rounded-md hover:bg-blue-400 hover:text-white flex items-center gap-1"
           >
             <i class="fa-solid fa-arrow-right-to-bracket -mb-[2px]"></i>Logout
           </button>
         </div>
       </nav>
+    </div>
+
+    <section
+      class="flex flex-col-reverse md:flex-row gap-5 items-center justify-between text-center md:text-left px-4 lg:px-20 my-4 md:mb-16"
+    >
+      <div class="flex-1">
+        <h2 class="text-4xl font-semibold mb-5">
+          <span class="text-blue-400">English</span> is Easy
+        </h2>
+        <p class="bangla-font mb-6 text-xl">
+          আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+          আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+          অন্য একটি Level এ
+        </p>
+        <form class="flex flex-col md:w-[50%]">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </form>
+        <button
+          class="bg-blue-400 text-white font-semibold px-4 py-2 rounded-md"
+        >
+          Get Started
+        </button>
+      </div>
+      <div>
+        <img src="./assets/hero-student.png" alt="" />
+      </div>
+    </section>
+
+    <!-- dynamic section -->
+    <h2 class="text-2xl font-semibold text-center">
+      <span class="text-blue-400">Let's</span> Learn Vocabularies
+    </h2>
+    <div id="LessonsContainer" class="flex flex-wrap gap-4 justify-center my-4">
     </div>
 
     <!-- javascript -->

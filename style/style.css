@@ -4,3 +4,13 @@
 .bangla-font {
   font-family: "Hind Siliguri", sans-serif;
 }
+input {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+input:focus{
+  outline: none;
+  border: 1px solid skyblue;
+}
