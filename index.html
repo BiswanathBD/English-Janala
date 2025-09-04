@@ -112,7 +112,7 @@
           />
         </form>
         <button
-          class="bg-blue-400 text-white font-semibold px-4 py-2 rounded-md"
+          class="bg-blue-400 text-white font-semibold px-4 py-2 rounded-md w-full md:w-fit"
         >
           Get Started
         </button>
@@ -130,7 +130,12 @@
       id="LessonsContainer"
       class="flex flex-wrap gap-4 justify-center my-4 mx-4"
     ></div>
-    <div id="word-container" class="bg-gray-100 mx-4 lg:mx-20 p-4 rounded-xl"></div>
+    <div id="word-container" class="bg-gray-100 mx-4 lg:mx-20 p-8 rounded-xl grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="col-span-full text-center space-y-4">
+        <p class="text-gray-400 bangla-font">আপনি এখনো কোন Lesson Select করেননি</p>
+      <h3 class="bangla-font text-4xl font-semibold">একটি Lesson Select করুন</h3>
+      </div>
+    </div>
 
     <!-- javascript -->
     <script src="./index.js"></script>
