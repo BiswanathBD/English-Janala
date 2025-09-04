@@ -26,7 +26,7 @@ const displayLessons = (lessons) => {
     const levelLessons = document.createElement("button");
     levelLessons.innerHTML = `
           <button
-            class="text-blue-400 font-semibold border border-blue-400 px-3 py-2 text-sm rounded-md hover:bg-blue-400 hover:text-white flex items-center gap-1"
+            class="text-blue-400 font-semibold border border-blue-400 px-3 py-2 text-sm rounded-md hover:bg-blue-400 hover:text-white flex items-center gap-1 transition-all"
           >
             <i class="fa-solid fa-book-open -mb-[2px]"></i>Lesson - ${lesson.level_no}
           </button>
