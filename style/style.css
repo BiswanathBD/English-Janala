@@ -10,7 +10,16 @@ input {
   border: 1px solid lightgray;
   border-radius: 8px;
 }
-input:focus{
+input:focus {
   outline: none;
   border: 1px solid skyblue;
+}
+.selected {
+  color: white;
+  background-color: #60A5FA;
+}
+.FAQ{
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+  border-radius: 10px;
 }

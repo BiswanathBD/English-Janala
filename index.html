@@ -130,12 +130,108 @@
       id="LessonsContainer"
       class="flex flex-wrap gap-4 justify-center my-4 mx-4"
     ></div>
-    <div id="word-container" class="bg-gray-100 mx-4 lg:mx-20 p-8 rounded-xl grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-      <div class="col-span-full text-center space-y-4">
-        <p class="text-gray-400 bangla-font">আপনি এখনো কোন Lesson Select করেননি</p>
-      <h3 class="bangla-font text-4xl font-semibold">একটি Lesson Select করুন</h3>
+    <div
+      id="word-container"
+      class="bg-gray-100 mx-4 lg:mx-20 p-8 rounded-xl grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10 md:mb-20"
+    >
+      <div class="col-span-full text-center space-y-4 my-10">
+        <p class="text-gray-400 bangla-font">
+          আপনি এখনো কোন Lesson Select করেননি
+        </p>
+        <h3 class="bangla-font text-4xl font-semibold">
+          একটি Lesson Select করুন
+        </h3>
       </div>
     </div>
+
+    <!-- question answer section -->
+    <section id="faq-section" class="mx-4 md:mx-20">
+      <h2 class="text-2xl font-semibold text-center md:mt-20">
+        <span class="text-blue-400">Frequently</span> Asked Questions
+      </h2>
+      <div class="FAQ my-4 flex justify-between">
+        <div>
+          <p class="font-bold">
+            How can I start learning English on this website?
+          </p>
+          <p class="text-gray-500 hidden answer">
+            You can start by exploring our beginner lessons, interactive
+            exercises, and quizzes. We also offer structured courses to guide
+            you step by step.
+          </p>
+        </div>
+        <i class="fa-solid fa-plus expand-toggle"></i>
+      </div>
+      <div class="FAQ my-4 flex justify-between">
+        <div>
+          <p class="font-bold">Is this website free to use?</p>
+          <p class="text-gray-500 hidden answer">
+            Yes, free for basic features. Paid plan needed for advanced lessons.
+          </p>
+        </div>
+        <i class="fa-solid fa-plus expand-toggle"></i>
+      </div>
+      <div class="FAQ my-4 flex justify-between">
+        <div>
+          <p class="font-bold">Do I need to create an account?</p>
+          <p class="text-gray-500 hidden answer">
+            An account is not required for basic lessons, but yes, you need one
+            for advanced learning.
+          </p>
+        </div>
+        <i class="fa-solid fa-plus expand-toggle"></i>
+      </div>
+      <div class="FAQ my-4 flex justify-between">
+        <div>
+          <p class="font-bold">How can I build my English vocabulary?</p>
+          <p class="text-gray-500 hidden answer">
+            Practice regularly by learning new words from lessons, reading, and
+            using interactive exercises. Reviewing and using words in sentences
+            helps retention.
+          </p>
+        </div>
+        <i class="fa-solid fa-plus expand-toggle"></i>
+      </div>
+      <div class="FAQ my-4 flex justify-between">
+        <div>
+          <p class="font-bold">
+            Do you offer certificates for completed courses?
+          </p>
+          <p class="text-gray-500 hidden answer">
+            Yes, we provide certificates for completed courses. These
+            certificates can help you showcase your learning progress and
+            achievements, and are especially useful for resumes, job
+            applications, or personal development records.
+          </p>
+        </div>
+        <i class="fa-solid fa-plus expand-toggle"></i>
+      </div>
+    </section>
+
+    <footer class="border-t-2 border-gray-100 mt-20 md:mt-40 p-4 md:p-20"">
+      <div>
+        <div class="flex gap-1 items-center text-xl pb-5">
+          <span class="font-semibold">English</span>
+          <img class="w-8" src="./assets/logo.png" alt="" />
+          <span class="bangla-font">জানালা</span>
+        </div>
+      </div>
+
+      <div class="flex justify-between">
+        <div>
+          <h3 class="bangla-font text-xl font-bold">ইংরেজি শিখুন সহজে</h3>
+          <p class="text-sm text-gray-500">Providing ED-Tech Applications since 2025</p>
+        </div>
+        <div class="text-center grid justify-center"> 
+          <p class="text-gray-500 font-semibold px-8 border-b border-gray-200 mb-2">FOLLOW US</p>
+            <p class="text-2xl flex gap-4 justify-center">
+              <i class="fa-brands fa-square-facebook text-blue-500"></i>
+              <i class="fa-brands fa-youtube text-red-500"></i>
+              <i class="fa-brands fa-instagram text-pink-500"></i>
+           </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- javascript -->
     <script src="./index.js"></script>
