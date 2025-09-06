@@ -179,6 +179,12 @@ faqSection.addEventListener("click", function (e) {
 
     answer.classList.toggle("hidden");
 
+    const expandedItems = document.querySelectorAll(".fa-minus");
+    expandedItems.forEach((item) => {
+      item.classList.replace("fa-minus", "fa-plus");
+      item.closest(".FAQ").querySelector(".answer").classList.add("hidden");
+    });
+
     icon.classList.toggle("fa-plus");
     icon.classList.toggle("fa-minus");
   }
