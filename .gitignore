@@ -1,2 +1,7 @@
 config.bat
 node_modules
+
+# Security & Editor ignore
+api.js
+api.ts
+**/public/fonts/
